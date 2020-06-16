@@ -60,7 +60,20 @@ fields:
   3:
     title: "Field #3"
     description: "This is the last and final field."
-    inline: true```
+    inline: true
+```
 4. Customize options to your liking. Make sure everything you do follows YAML format! If you wish to not have something (eg. author), simple delete that line from the configuration.
 5. Save the file and go to your Discord server.
 6. Execute the ```[PREFIX]post <#channel> <embed>``` command to post this embed! The <embed> argument is the name of the file you just created (without the .yml at the end).
+
+## Simple Embed Example
+This is an example configuration of how to create an extremely simple embed with only color, title, description, and footer.
+```yaml
+color: "#0398fc"
+title: "Simple Embed"
+description:
+  - "Hello there! I am a simple embed."
+  - "How is your day?"
+footer: "Sent with Love Using Embeddy"
+footer-icon: "https://demeng.dev/branding/embeddy/icon.png"
+```
