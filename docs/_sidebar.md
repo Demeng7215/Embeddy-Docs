@@ -1,4 +1,5 @@
 * [Home](/)
 * [Installation](installation.md)
 * [Configuration](configuration.md)
+* [Creating Embeds](creating-embeds.md)
 * [Commands](commands.md)
