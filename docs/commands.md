@@ -14,3 +14,6 @@
 * {#channel} : The channel that contains the message you wish to edit. You must tag this channel.
 * {message} : The ID of the message you wish to edit.
 * {embed} : The name of the embed that the old embed will be replaced with. This is the file name of the embed's configuration file in the embeds folder without the .yml extension.
+
+## raw {text}
+**Description:** Converts the provided text to a raw format that can be used in the configuration files.
